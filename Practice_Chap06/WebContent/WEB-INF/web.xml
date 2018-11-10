@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Practice_Chap06</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>initParam</servlet-name>
+  <servlet-class>sec01_exam.initParam</servlet-class>
+  <!--특정 서블릿 파일에만 적용되는 부분이다. 하여 servlet파일을 지정할 떄 그안에 초기화 파라미터르,ㄹ 알해와 같이 기술한다.
+  init-param태그를 이용하여 지정한다.  -->
+  
+  <init-param>
+  <param-name>id</param-name>
+  <param-value>jew8960</param-value>
+  </init-param>
+  
+  <init-param>
+  <param-name>pw</param-name>
+  <param-value>1234</param-value>
+  </init-param>
+  <init-param>
+  <param-name>path</param-name>
+  <param-value>D:\\jsp작업</param-value>
+  </init-param>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>initParam</servlet-name>
+  	<url-pattern>/IP</url-pattern>  <!--서블릿 맵핑 코드  -->
+  </servlet-mapping>
+  
+</web-app>

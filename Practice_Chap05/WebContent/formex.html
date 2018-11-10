@@ -1,0 +1,35 @@
+   <!-- form태그의 시작, submit을 했을때 FormEx를 찾아간다. 아울러 방식은 post방식이다. -->
+   
+   <form action ="FormEx" method="post">
+   <!-- 이름, 아이디, 비밀번호를 type에 맞게끔 입력받는다. 단, 여기서 name은 servlet에서도 받아서 사용해야하므로 항상 고유의 값인것이다. -->
+      
+      이름 : <input type ="text" name="name" size="10"> <br/>
+      아이디 : <input type ="text" name="id" size="10"> <br/>
+      비밀번호 : <input type ="password" name="pw" size="10"> <br/>
+      
+      <!-- check박스는 다중선택이 가능하다. 아울러 name은 하나로 동일해야 적용이 된다. -->
+      취미 : <input type="checkbox" name="hobby" value="read"> 독서
+         <input type="checkbox" name="hobby" value="cook"> 요리
+         <input type="checkbox" name="hobby" value="run"> 조깅
+         <input type="checkbox" name="hobby" value="swim"> 수영
+         <input type="checkbox" name="hobby" value="sleep"> 취침 <br/>
+         
+      <!-- radio박스는 단 하나 선택이 가능하다. 아울러 name은 하나로 동일해야
+         적용이 된다. -->
+      전공: <input type="checkbox" name="major" value="kor"> 국어
+         <input type="checkbox" name="major" value="eng"> 영어
+         <input type="checkbox" name="major" value="mat" checked="checked"> 수학
+         <input type="checkbox" name="major" value="des"> 디자인 <br/>
+         
+         <!-- select태그는 리스트 박스와 유사하다. -->
+         <select name="protocol">
+         <option value="http">HTTP</option>
+         <option value="ftp" selected="selected">FTP</option>
+         <option value="smtp">SMTP</option>
+         <option value="pop">POP</option>
+         </select>
+         <br/>
+         <!-- submit은 form태그의 데이터를 전송하는 역할이며, reset는 초기화하는
+            기능이다. -->
+         <input type="submit" value="전송"> <br/>
+         <input type="reset" value="초기화"> <br/>

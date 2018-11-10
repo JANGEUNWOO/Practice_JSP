@@ -1,0 +1,80 @@
+
+2018-10-19 18:22:20 Commons Daemon procrun stderr initialized
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server version:        Apache Tomcat/7.0.91
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server built:          Sep 13 2018 19:52:12 UTC
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server number:         7.0.91.0
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: OS Name:               Windows 10
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: OS Version:            10.0
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Architecture:          amd64
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Java Home:             C:\Program Files\Java\jdk1.8.0_181\jre
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: JVM Version:           1.8.0_181-b13
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: JVM Vendor:            Oracle Corporation
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: CATALINA_BASE:         E:\JSP작업
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: CATALINA_HOME:         E:\JSP작업
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Dcatalina.home=E:\JSP작업
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Dcatalina.base=E:\JSP작업
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.io.tmpdir=E:\JSP작업\temp
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.util.logging.config.file=E:\JSP작업\conf\logging.properties
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: exit
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: abort
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Xms128m
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Xmx256m
+10월 19, 2018 6:22:21 오후 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+정보: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\JSP작업\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;.
+10월 19, 2018 6:22:21 오후 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8181"]
+10월 19, 2018 6:22:21 오후 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["ajp-bio-8009"]
+10월 19, 2018 6:22:21 오후 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 1126 ms
+10월 19, 2018 6:22:22 오후 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+10월 19, 2018 6:22:22 오후 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Apache Tomcat/7.0.91
+10월 19, 2018 6:22:22 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory E:\JSP작업\webapps\docs
+10월 19, 2018 6:22:22 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory E:\JSP작업\webapps\docs has finished in 391 ms
+10월 19, 2018 6:22:22 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory E:\JSP작업\webapps\examples
+10월 19, 2018 6:22:22 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory E:\JSP작업\webapps\examples has finished in 224 ms
+10월 19, 2018 6:22:22 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory E:\JSP작업\webapps\host-manager
+10월 19, 2018 6:22:22 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory E:\JSP작업\webapps\host-manager has finished in 46 ms
+10월 19, 2018 6:22:22 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory E:\JSP작업\webapps\manager
+10월 19, 2018 6:22:22 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory E:\JSP작업\webapps\manager has finished in 45 ms
+10월 19, 2018 6:22:22 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory E:\JSP작업\webapps\ROOT
+10월 19, 2018 6:22:22 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory E:\JSP작업\webapps\ROOT has finished in 33 ms
+10월 19, 2018 6:22:22 오후 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8181"]
+10월 19, 2018 6:22:22 오후 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["ajp-bio-8009"]
+10월 19, 2018 6:22:22 오후 org.apache.catalina.startup.Catalina start
+정보: Server startup in 791 ms

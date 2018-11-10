@@ -1,0 +1,8 @@
+10월 19, 2018 6:22:22 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextInitialized()
+10월 19, 2018 6:22:22 오후 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextInitialized()
+10월 19, 2018 6:22:22 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1dfa93c1')
+10월 19, 2018 6:22:22 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@e53be49')

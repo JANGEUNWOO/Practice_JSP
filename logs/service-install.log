@@ -1,0 +1,5 @@
+"E:\JSP작업\bin\Tomcat7.exe" //IS//Tomcat7 --DisplayName "Apache Tomcat 7.0 Tomcat7" --Description "Apache Tomcat 7.0.91 Server - https://tomcat.apache.org/" --LogPath "E:\JSP작업\logs" --Install "E:\JSP작업\bin\Tomcat7.exe" --Jvm "C:\Program Files\Java\jdk1.8.0_181\jre\bin\server\jvm.dll" --StartPath "E:\JSP작업" --StopPath "E:\JSP작업"
+"E:\JSP작업\bin\Tomcat7.exe" //US//Tomcat7 --Classpath "E:\JSP작업\bin\bootstrap.jar;E:\JSP작업\bin\tomcat-juli.jar" --StartClass org.apache.catalina.startup.Bootstrap --StopClass org.apache.catalina.startup.Bootstrap --StartParams start --StopParams stop  --StartMode jvm --StopMode jvm
+"E:\JSP작업\bin\Tomcat7.exe" //US//Tomcat7 --JvmOptions "-Dcatalina.home=E:\JSP작업#-Dcatalina.base=E:\JSP작업#-Djava.io.tmpdir=E:\JSP작업\temp#-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager#-Djava.util.logging.config.file=E:\JSP작업\conf\logging.properties"
+"E:\JSP작업\bin\Tomcat7.exe" //US//Tomcat7 --JvmOptions9 "--add-opens=java.base/java.lang=ALL-UNNAMED#--add-opens=java.base/java.io=ALL-UNNAMED#--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED"
+"E:\JSP작업\bin\Tomcat7.exe" //US//Tomcat7 --StdOutput auto --StdError auto --JvmMs 128 --JvmMx 256
